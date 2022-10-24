@@ -47,7 +47,7 @@ namespace TesteNota
             
             foreach (var product in listProdutos)
             {
-                Console.WriteLine(product.Nome+"          "+product.Quantidade+"          "+ product.Preco,("F2", CultureInfo.InvariantCulture));
+                Console.WriteLine($"{product.Nome}        {product.Quantidade}            {product.Preco.ToString("C")}");
             }
         }
         public void Calculo()
@@ -57,7 +57,7 @@ namespace TesteNota
                ValorTotal += product.Quantidade * product.Preco;
             }
 
-            Console.WriteLine("Total da Nota Fiscal: R$ " + ValorTotal, ("F2", CultureInfo.InvariantCulture));
+            Console.WriteLine("Total da Nota Fiscal: R$ " + ValorTotal);
         }
     }
 }

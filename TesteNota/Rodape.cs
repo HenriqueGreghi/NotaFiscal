@@ -14,7 +14,7 @@ namespace TesteNota
             
             Console.WriteLine();
             Console.WriteLine();
-            Console.WriteLine("*************************************************************************");
+            Console.WriteLine("*****************************************************************");
 
         }
     }
