@@ -57,7 +57,7 @@ namespace TesteNota
                ValorTotal += product.Quantidade * product.Preco;
             }
 
-            Console.WriteLine("Total da Nota Fiscal: R$ " + ValorTotal);
+            Console.WriteLine($"Total da Nota Fiscal: R$ {ValorTotal.ToString("C")}");
         }
     }
 }
